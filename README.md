@@ -1,11 +1,11 @@
 # NSPRTVideoPlayer
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg) 
-[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat)](https://github.com/NSPRT/NSPRTVideoPlayer)
+[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat)](https://github.com/nsprt/NSPRTVideoPlayer)
 <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
 
 A beautiful video player created for use with SPM.
 
-Playin          |  Paused
+Playing         |  Paused
 :-------------------------:|:-------------------------:
 ![](Assets/playing.jpg)  |  ![](Assets/paused.jpg)
 
@@ -23,10 +23,10 @@ Using Xcode, select `File` -> `Swift Packages` -> `Add Package Dependency` and e
 
 Add the following to your Package.swift
 ```swift
-    .Package(url: "https://github.com/NSPRT/NSPRTVideoPlayer.git", majorVersion: 1)
+    .Package(url: "https://github.com/nsprt/NSPRTVideoPlayer.git", majorVersion: 1)
 ```
 
-Then simply `import MyLibrary` wherever you’d like to use it.
+Then simply `import NSPRTVideoPlayer` wherever you’d like to use it.
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ NSLayoutConstraint.activate([
     subView.centerXAnchor.constraint(equalTo: centerXAnchor)
     ])
     
-    subView.addSubview(playerView)
+subView.addSubview(playerView)
 playerView.translatesAutoresizingMaskIntoConstraints = false
 NSLayoutConstraint.activate([
     playerView.topAnchor.constraint(equalTo: subView.topAnchor),
@@ -70,4 +70,4 @@ NSLayoutConstraint.activate([
 Chaz Woodall - chazwoodall@gmail.com
 
 ## License
-DyooVideoPlayer is available under the MIT license. 
+NSPRTVideoPlayer is available under the MIT license. 
