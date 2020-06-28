@@ -67,7 +67,7 @@ NSLayoutConstraint.activate([
 ```
 
 ## Creator
-Chaz Woodall - chazwoodall@gmail.com
+NSPRT - chaz@nsprt.com
 
 ## License
 NSPRTVideoPlayer is available under the MIT license. 
